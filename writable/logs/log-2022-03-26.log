@@ -1,0 +1,1000 @@
+CRITICAL - 2022-03-26 03:15:59 --> Invalid file: my-form.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-form.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('my-form', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(11): view('my-form')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 03:16:53 --> Invalid file: my-form.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-form.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('my-form', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(65): view('my-form')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 03:32:07 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:33:43 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:35:56 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:36:18 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:36:31 --> Undefined variable: faculty
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 03:37:28 --> Undefined variable: faculty
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 03:38:14 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:38:55 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:39:45 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:46:47 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:46:52 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:47:14 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:47:21 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:54:27 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 03:56:10 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:01:52 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:05:33 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:17:55 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:23:17 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:24:48 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:24:50 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:24:57 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:24:59 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:25:17 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:31:31 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:31:31 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:31:32 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:31:33 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:31:35 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:32:19 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:32:20 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 04:32:22 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-26 04:37:21 --> Table 'faculty.file' doesn't exist
+CRITICAL - 2022-03-26 04:37:21 --> Table 'faculty.file' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Form.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->store()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-26 04:40:13 --> Table 'faculty.file' doesn't exist
+CRITICAL - 2022-03-26 04:40:13 --> Table 'faculty.file' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Form.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->store()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-26 04:42:06 --> Table 'faculty.file' doesn't exist
+CRITICAL - 2022-03-26 04:42:06 --> Table 'faculty.file' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Form.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->store()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-26 04:42:49 --> Table 'faculty.file' doesn't exist
+CRITICAL - 2022-03-26 04:42:49 --> Table 'faculty.file' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Form.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->store()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-26 04:44:40 --> Table 'faculty.file' doesn't exist
+CRITICAL - 2022-03-26 04:44:40 --> Table 'faculty.file' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fi...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fi...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fi...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Form.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->store()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 04:47:09 --> Invalid file: users.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(7): view('users')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:47:09 --> Invalid file: users.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(7): view('users')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:47:16 --> Invalid file: users.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(7): view('users')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Form->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:49:13 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:50:11 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:51:45 --> Invalid file: my-form.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('my-form.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('my-form', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(11): view('my-form')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:52:09 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(19): view('faculties', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\form->fileUpload()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:52:33 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(19): view('faculties', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\form->fileUpload()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:54:17 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Form.php(19): view('faculties', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\form->fileUpload()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\form))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:55:48 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:55:50 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 04:56:53 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 47
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\HTTP\RedirectResponse->to('faculties', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:57:09 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\faculty\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Faculties/save')
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Faculties/save')
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 04:57:20 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 04:59:06 --> Invalid file: upload_form.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_form.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_form', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(13): view('upload_form', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 05:00:03 --> Call to a member function getErrors() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 05:00:25 --> Image File is not a valid rule.
+#0 C:\xampp\htdocs\faculty\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Image File')
+#1 C:\xampp\htdocs\faculty\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('userfile', 'Image File', NULL, Array, Array)
+#2 C:\xampp\htdocs\faculty\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(24): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:00:52 --> Invalid file: upload_success.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_success....')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(41): view('upload_success', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 05:06:21 --> SplFileInfo::getSize(): stat failed for ./uploads20220326/1648289181_dac27bfb86947ef41707.jpg
+#0 C:\xampp\htdocs\faculty\system\Files\File.php(64): SplFileInfo->getSize()
+#1 C:\xampp\htdocs\faculty\system\Files\File.php(76): CodeIgniter\Files\File->getSize()
+#2 C:\xampp\htdocs\faculty\app\Views\upload_success.php(12): CodeIgniter\Files\File->getSizeByUnit('kb')
+#3 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#6 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(40): view('upload_success', Array)
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#8 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-26 05:06:31 --> SplFileInfo::getSize(): stat failed for ./uploads20220326/1648289191_80e681d3244363d707bb.jpg
+#0 C:\xampp\htdocs\faculty\system\Files\File.php(64): SplFileInfo->getSize()
+#1 C:\xampp\htdocs\faculty\system\Files\File.php(76): CodeIgniter\Files\File->getSize()
+#2 C:\xampp\htdocs\faculty\app\Views\upload_success.php(12): CodeIgniter\Files\File->getSizeByUnit('kb')
+#3 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#6 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(40): view('upload_success', Array)
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#8 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-26 05:07:35 --> SplFileInfo::getSize(): stat failed for uploads/20220326/1648289255_45770deaa273eaf53ed6.jpg
+#0 C:\xampp\htdocs\faculty\system\Files\File.php(64): SplFileInfo->getSize()
+#1 C:\xampp\htdocs\faculty\system\Files\File.php(76): CodeIgniter\Files\File->getSize()
+#2 C:\xampp\htdocs\faculty\app\Views\upload_success.php(12): CodeIgniter\Files\File->getSizeByUnit('kb')
+#3 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#6 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(40): view('upload_success', Array)
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#8 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-26 05:10:39 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\faculty\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('faculties')
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('faculties')
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 05:10:51 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\faculty\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('faculties')
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('faculties')
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 05:10:52 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\faculty\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('faculties')
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('faculties')
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 05:10:57 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\faculty\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\faculty\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:11:20 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\faculty\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\faculty\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:13:09 --> Call to a member function hasMoved() on null
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 05:14:44 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:14:45 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:15:28 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:15:29 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:16:06 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:16:34 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:16:40 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\faculty\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:17:06 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:17:08 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:17:19 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:17:53 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:17:56 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(12): view('faculties')
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:25:16 --> Undefined variable: model
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 05:25:32 --> Class 'App\Controllers\FacultyModel' not found
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 05:25:53 --> There is no data to insert.
+#0 C:\xampp\htdocs\faculty\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\faculty\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\faculty\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(52): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:25:59 --> There is no data to insert.
+#0 C:\xampp\htdocs\faculty\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\faculty\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\faculty\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(52): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-26 05:26:26 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(43): view('faculties', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:28:36 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:29:35 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:31:06 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:31:30 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:31:46 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:32:21 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:34:02 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(56): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:34:18 --> Undefined variable: uploaded_flleinfo
+#0 C:\xampp\htdocs\faculty\app\Views\upload_success.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(56): view('upload_success', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->upload()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-26 05:37:33 --> Invalid file: upload_form.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_form.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('upload_form', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Upload.php(13): view('upload_form', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Upload->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 05:56:53 --> Undefined variable: errors
+#0 C:\xampp\htdocs\faculty\app\Views\faculties.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): view('faculties', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-26 06:54:38 --> Column 'uploaded_flleinfo' cannot be null
+CRITICAL - 2022-03-26 06:54:38 --> Column 'uploaded_flleinfo' cannot be null
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\faculty\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\faculty\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\faculty\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\faculty\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#10 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#11 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-26 07:05:55 --> Table 'faculty.addfaculties' doesn't exist
+CRITICAL - 2022-03-26 07:05:55 --> Table 'faculty.addfaculties' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\faculty\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\faculty\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('vokanunyfu@mail...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\faculty\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'vokanunyfu@mail...', Array, Array)
+#7 C:\xampp\htdocs\faculty\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(37): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#10 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#11 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-26 07:06:11 --> Invalid file: faculties.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('faculties.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculties', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(40): view('faculties', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-26 07:07:02 --> Table 'faculty.addfaculty' doesn't exist
+CRITICAL - 2022-03-26 07:07:02 --> Table 'faculty.addfaculty' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\faculty\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\faculty\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('vokanunyfu@mail...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\faculty\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'vokanunyfu@mail...', Array, Array)
+#7 C:\xampp\htdocs\faculty\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(37): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#10 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#11 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-26 07:08:11 --> Table 'faculty.addfaculty' doesn't exist
+CRITICAL - 2022-03-26 07:08:11 --> Table 'faculty.addfaculty' doesn't exist
+#0 C:\xampp\htdocs\faculty\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\faculty\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\faculty\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\faculty\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\faculty\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('vokanunyfu@mail...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\faculty\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'vokanunyfu@mail...', Array, Array)
+#7 C:\xampp\htdocs\faculty\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(37): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#10 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#11 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-26 07:08:14 --> Invalid file: addFaculty.php
+#0 C:\xampp\htdocs\faculty\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addFaculty.php')
+#1 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('addFaculty', Array, true)
+#2 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(16): view('addFaculty', Array)
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->index()
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-26 07:15:52 --> Call to undefined method App\Models\FacultyModel::getPosts
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(73): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->facultyList()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 07:44:14 --> Undefined variable: filepath
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 07:44:40 --> Undefined variable: filepath
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 07:45:00 --> Undefined variable: filepath
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 07:45:18 --> Undefined variable: filepath
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 08:01:58 --> Undefined variable: file
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 08:02:56 --> Undefined variable: file
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 08:10:21 --> Undefined variable: file
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 08:34:01 --> Could not move file phpA14C.tmp to uploads/ ()
+#0 C:\xampp\htdocs\faculty\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpA14C.tmp', 'uploads/', '')
+#1 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(46): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#4 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-26 08:34:41 --> Call to a member function move() on string
+#0 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-26 08:35:13 --> Undefined variable: imageName
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 08:44:19 --> Argument 2 passed to CodeIgniter\HTTP\Files\UploadedFile::move() must be of the type string or null, array given, called in C:\xampp\htdocs\faculty\app\Controllers\Faculties.php on line 48
+#0 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', Array)
+#1 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->save()
+#2 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#3 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 09:07:20 --> Undefined variable: newsItem
+#0 C:\xampp\htdocs\faculty\app\Views\faculty-list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\faculty\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\faculty\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\faculty\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\faculty\app\Controllers\Faculties.php(77): view('faculty-list', Array)
+#5 C:\xampp\htdocs\faculty\system\CodeIgniter.php(832): App\Controllers\Faculties->facultyList()
+#6 C:\xampp\htdocs\faculty\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculties))
+#7 C:\xampp\htdocs\faculty\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\faculty\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
