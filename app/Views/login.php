@@ -9,7 +9,7 @@
 <body>
     <form action="/login/auth">
         <input type="text" name="username" placeholder="username" value="<?= set_value('username') ?>">
-        <input type="password" name="password" placeholder="password">
+        <input type="text" name="password" placeholder="password">
         <input type="submit" value="submit">
     </form>
 </body>

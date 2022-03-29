@@ -2,6 +2,7 @@
   
 use CodeIgniter\Controller;
 use App\Models\UserModel;
+use App\Models\StudentModel;
   
 class Login extends Controller
 {
@@ -11,8 +12,21 @@ class Login extends Controller
         echo view('login');
     } 
   
+    public function studentLogin()
+    {
+        helper(['form']);
+        echo view('studlogin');
+    } 
+
+
+
+
+
+
+
     public function auth()
     {
+        
         $session = session();
         $model = new UserModel();
         $username = $this->request->getVar('username');
@@ -39,50 +53,66 @@ class Login extends Controller
             return redirect()->to('/login');
         }
     }
-    
-    public function logout()
-    {
-        $session = session();
-
-
-        $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
-        $password = array(); 
-        $alpha_length = strlen($alphabet) - 1; 
-        for ($i = 0; $i < 8; $i++) 
-        {
-            $n = rand(0, $alpha_length);
-            $password[] = $alphabet[$n];
-        }
-        return implode($password); 
-        echo index();
 
 
 
 
+    // public function studentAuth()
+    // {
+    //     $session = session();
+    //     $model = new StudentModel();
+    //     $schoolid = $this->request->getVar('schoolid');
+    //     $password = $this->request->getVar('password');
+    //     $data = $model->where('schoolid', $schoolid)->first();
         
-  helper(['form']);
-        //set rules validation form
-        $rules = [
-            'username'      => 'required|min_length[3]|max_length[20]',
-            'password'      => 'required|min_length[6]|max_length[200]',
-            'confpassword'  => 'matches[password]'
-        ];
+    //     if($data){
+    //         $pass = $data['password'];
+    //         $verify_pass = password_verify($password, $pass);
+    //         if($password == $pass){
+    //             $ses_data = [
+    //                 'id'       => $data['id'],
+    //                 'schoolid'     => $data['schoolid'],
+    //                 'logged_in'     => TRUE
+    //             ];
+    //             $session->set($ses_data);
+    //             //echo "success";
+    //             return redirect()->to('/Students/StudentList');
+    //         }else{
+    //             $session->setFlashdata('msg', 'Wrong Password');
+    //             return redirect()->to('/register');
+    //         }
+    //     }else{
+    //         $session->setFlashdata('msg', 'schoolid not Found');
+    //         return redirect()->to('/faculties');
+    //     }
+        
+    // }
+
+
+
+    
+    // public function studentLogout()
+    // {
+    //     $model = new StudentModel();
+    //     $student = $model->find($id);
+    //     $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+    //     $password = array(); 
+    //     $alpha_length = strlen($alphabet) - 1; 
+    //     for ($i = 0; $i < 8; $i++) 
+    //     {
+    //         $n = rand(0, $alpha_length);
+    //         $password[] = $alphabet[$n];
+    //     }
+    //     $newPassword = implode($password);
+    
+    
+    //     $data = [
+    //         'password' => $newPassword,
+    //       ];
           
-        if($this->validate($rules)){
-            $model = new UserModel();
-            $data = [
-                'username' => $this->request->getVar('username'),
-                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
-            ];
-            $model->save($data);
-            return redirect()->to('/login');
-        }
-
-
-
-        $session->destroy();
-        return redirect()->to('/login');
-    }
+    //       $model->update($id, $data);
+    //       return redirect()->to('/Students/StudentList');
+    // }
 } 
 
 

@@ -2,7 +2,7 @@
 
 namespace Config;
 
-// Create a new instance of our RouteCollection class.
+// Create a new instance of our RouteCollection Classes.
 $routes = Services::routes();
 
 // Load the system's routing file first, so that the app and ENVIRONMENT
@@ -32,12 +32,27 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 //$routes->get('/', 'Home::index');
-$routes->get('/', 'Faculties::index');
-//...
+$routes->get('/', 'Students::index');
+$routes->get('/', 'Students::index');
+$routes->get('/', 'Subjects::index');
+$routes->get('/', 'Classes::index');
+$routes->post('update', 'Faculties::update');
+$routes->get('Faculties/edit/(:num)', 'Faculties::edit/$1');
+$routes->get('delete/(:num)', 'Faculties::delete/$1');
 
-$routes->get('/', 'Demo::index');
-$routes->post('/demo/do_upload', 'Demo::doUpload');
 
+$routes->post('update', 'Students::update');
+$routes->get('Students/edit/(:num)', 'Students::edit/$1');
+$routes->get('delete/(:num)', 'Students::delete/$1');
+
+
+$routes->post('update', 'Subjects::update');
+$routes->get('Subjects/edit/(:num)', 'Subjects::edit/$1');
+$routes->get('delete/(:num)', 'Subjects::delete/$1');
+
+$routes->post('update', 'Classes::update');
+$routes->get('Classes/edit/(:num)', 'Classes::edit/$1');
+$routes->get('delete/(:num)', 'Classes::delete/$1');
 //...
 
 /*

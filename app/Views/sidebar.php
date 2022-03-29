@@ -16,7 +16,7 @@
         <div class="col-2 p-3 bg-dark position-fixed" id="sticky-sidebar">
             <div class="nav flex-column flex-nowrap vh-100 overflow-auto text-white p-4 ">
               
-            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <a href="#" class="d-flex align-items-center mb-2 mb-md-0 me-md-auto text-white text-decoration-none">
             <img src="<?= base_url('assets/assets/logo.svg');?>" width="80" height="80" class="d-inline-block align-top" alt="">
               <span class="fs-4">Philippine Public Safety College</span>
             </a>
@@ -24,17 +24,36 @@
             <hr>
             
             <ul class="nav nav-pills flex-column mb-auto">
-              
-            <li>
-                <a  href="<?= base_url('Home');?>" class="nav-link text-white sidebar-links">
+           
+              <li>
+                  <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                  <h4 class="nav-link text-white link-header">Admins
+                  </h4>
+                <ul>
+                    <li>
+                          <a href="<?= base_url('Faculties');?>" class="nav-link text-white sidebar-links">
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                        Add Admin 
+                        </a>
+                    </li>
+                    <li>
+                      <a href="<?= base_url('Faculties/facultyList');?>" class="nav-link text-white sidebar-links">
+                          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                          Admin List
+                          </a>
+                    </li>
+              </ul>
+              </li>
+              <li>
+                <a href="<?= base_url('Subjects');?>" class="nav-link text-white sidebar-links">
                   <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
-                  Dashboard
+                  Subjects
                 </a>
               </li>
               <li>
-                <a href="#" class="nav-link text-white sidebar-links">
+                <a href="<?= base_url('Classes');?>" class="nav-link text-white sidebar-links">
                   <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
-                  Subjects
+                  Classes
                 </a>
               </li>
               <li>
@@ -68,13 +87,13 @@
                   </h4>
                 <ul>
                     <li>
-                          <a href="<?= base_url('Faculties');?>" class="nav-link text-white sidebar-links">
+                          <a href="<?= base_url('Students');?>" class="nav-link text-white sidebar-links">
                         <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
                         Add Student 
                         </a>
                     </li>
                     <li>
-                      <a href="<?= base_url('Faculties/facultyList');?>" class="nav-link text-white sidebar-links">
+                      <a href="<?= base_url('Students/StudentList');?>" class="nav-link text-white sidebar-links">
                           <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
                           Student List
                           </a>
